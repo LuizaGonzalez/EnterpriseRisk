@@ -147,3 +147,25 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# Secretos
+
+.env
+.env.local
+.env.*.local
+
+# Backend
+
+backend/target/
+*.jar
+
+# Frontend
+
+frontend/node_modules/
+frontend/dist
+
+# IDE
+
+.idea/
+.vscode/
+
