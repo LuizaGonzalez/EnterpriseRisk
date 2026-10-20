@@ -67,7 +67,7 @@ web_modules/
 
 # dotenv environment variable files
 .env
-.env.*
+frontend/.env.local
 !.env.example
 
 # parcel-bundler cache (https://parceljs.org/)
@@ -151,7 +151,7 @@ vite.config.ts.timestamp-*
 # Secretos
 
 .env
-.env.local
+frontend/.env.local
 .env.*.local
 
 # Backend
