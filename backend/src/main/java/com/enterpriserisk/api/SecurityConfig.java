@@ -33,8 +33,8 @@ public class SecurityConfig {
     CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration config = new CorsConfiguration();
         config.setAllowedOrigins(List.of(
-                "http://localhost:5173"
-                // https://TU-SUBDOMINIO.duckdns.org en la Parte 6
+                "http://localhost:5173",
+                "https://luiza-risk.duckdns.org"
         ));
         config.setAllowedMethods(List.of("GET"));
         config.setAllowedHeaders(List.of("Authorization", "Content-Type"));
